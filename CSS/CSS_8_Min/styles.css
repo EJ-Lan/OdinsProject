@@ -1,0 +1,33 @@
+/* From the video Learn CSS Box Model In 8 Minutes */
+/* Best Way to Learn is use Chrome Dev Tools */
+/* If you want to space two elements away from eachother use margin */
+/* If you want to space out an element from itself you need to use padding */
+/* Padding is inside the border and will include the background color */
+/* Margin is outside the border and will not include the background color */
+/* border-box is almost always used because it makes stying so much easier */
+/* border-box someties will just be added to universal selector */
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+.box-one {
+    background-color: #EB5757;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 20px solid #9B51E0;
+    margin: 100px;
+    box-sizing: border-box;
+}
+
+.box-two {
+    background-color: #2D9CDB;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 30px solid #9B51E0;
+    margin: 70px;
+}
