@@ -29,3 +29,9 @@ innerContainer.appendChild(innerDivHeading);
 innerContainer.appendChild(innerDivP);
 
 container.appendChild(innerContainer);
+
+btn.addEventListener('click', function (e) {
+  e.target.style.background = 'blue';
+});
+
+
