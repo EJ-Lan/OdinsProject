@@ -29,5 +29,3 @@ innerContainer.appendChild(innerDivHeading);
 innerContainer.appendChild(innerDivP);
 
 container.appendChild(innerContainer);
-
-
